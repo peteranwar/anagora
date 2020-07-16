@@ -115,23 +115,7 @@ html {
   position: relative;
   color: #4e9cb5;
 }
-/* .typing::after {
-  content: "";
-  position: absolute;
-  width: 10px;
-  height: 5%;
-  border-right: 2px solid white;
-  animation: blink 0.7s infinite ease-in;
-}
 
-@keyframes blink {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-} */
 .home-caption p {
   color: white;
   margin-bottom: 20px;
@@ -943,7 +927,11 @@ html {
 @media (max-width: 768px) {
   .mynav {
     padding: 5px 15px;
-    /* background: red !important; */
+    background-color: #c9cdd2f9 !important;
+    z-index: 1;
+    border-bottom: none;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.8);
+    padding: 5px 15px;
   }
 
   .navbar-nav .nav-item .nav-link {
@@ -951,7 +939,7 @@ html {
   }
   .home-caption h1 {
     color: white;
-    font-size: 40px;
+    font-size: 35px;
     margin: 0;
     padding: 0;
   }
@@ -1042,7 +1030,7 @@ html {
     padding-right: 30px;
   }
   #footer h2 {
-    font-size: 28px;
+    font-size: 24px;
   }
   #footer p {
     font-size: 13px;
